@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Eliminando el padding de las clases col de Bootstrap */
+
+[class*='col-'] {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Clases reutilizables */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-super-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+.yellow {
+  background-color: #FFC107;
+}
+
+.btn-white {
+  border: none;
+}
+
+.font-bold {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.between {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+
+.nav-white {
+  /*padding-top: 3vh;*/
+  background-color: #FFFFFF;
+  border: none;
+  margin: 0;
+}
+
+.navbar-brand img {
+  height: 100%;
+  /*margin: auto -15px;*/
+}
+
+/* First section */
+
+.first-section {
+  background-image: url('../assets/images/taxi.jpg');
+  background-size: cover;
+  background-position: center 91%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.space {
+  padding: 20px 50px;
+}
+
+.download h3 img {
+  width: 40%;
+}
+
+.sign-up h4 img {
+  margin-left: 5px;
+  width: 20%;
+}
+
+.sign-up button, .sign-up p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Second section */
+
+.container-app {
+  border: 1px solid #FFFFFF;
+  margin: 5vh 0;
+  padding: 30px;
+}
+
+.container-image img {
+  width: 100%;
+}
+
+.desktop p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/* Third section */
+
+.third-section {
+  background-image: url('../assets/images/conduce.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.total {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 80vh;
+}
+
+.small p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* Fourth section*/
+
+span.container-icon {
+  background-color: transparent;
+  border: none;
+}
+
+input.form-style {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+input.form-style::placeholder {
+  color: #FFFFFF;
+}
+
+.container-content {
+  padding: 3%;
+}
+
+.container-map {
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+}
+
+.container-map img {
+  width: 100%;
+  height: 50vh;
+}
+
+/* Footer */
+
+.gray {
+  background-color: #3F4448;
+}
+
+.logo {
+  border-bottom: 1px solid #FFFFFF;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  border-top: 1px solid #FFFFFF;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+ul li {
+  padding: 10px 0;
+}
+
+.google-play > img {
+  width: 100%;
+}
+
+.app-store {
+  margin-top: 15px;
+}
+
+.app-store > img {
+  width: 100%;
+}
